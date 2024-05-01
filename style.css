@@ -5,15 +5,31 @@
 
 body{
     background-color: #1D2D44;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    color: #F0EBD8;
+}
+
+.photo{
+    border-radius: 500px;
+    margin: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 header{
-    background-color: #3E5C76;
-    height: 140px;
+    background-color: #0D1321;
+    height: 60px;
     padding: 20px;
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
-    align-items: center;
+    align-content: end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 a{
@@ -22,9 +38,61 @@ a{
     margin: 30px;
 }
 
+a:hover{
+    background-color: #F0EBD8;
+    color: #0D1321;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
 #divPrincipal{
+    margin: 150px 500px 110px 500px;
+    height: 400px;
+    text-align: center;
+}
+
+#divProjects{
+    padding-top: 50px;
     text-align: center;
     align-items: center;
-    border-width: 10px;
-    border-color: #F0EBD8;
+    height: 700px;
+    background-color: #F0EBD8;
+}
+
+#divPhoto{
+    border: 2px solid #868171;
+    border-radius: 8px;
+    display: flex;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.aboutMe{
+    font-size: 25px;
+    margin: 30px 15px 30px 30px;
+}
+
+#divSkills{
+    text-align: center;
+    padding-top: 50px;
+    text-align: center;
+    align-items: center;
+    height: 400px;
+    background-color: #BCD0C7;
+}
+
+#divContact{
+    text-align: center;
+    padding-top: 50px;
+    text-align: center;
+    align-items: center;
+    height: 800px;
+}
+
+footer{
+    background-color: #748CAB;
+    height: 60px;
+    padding: 20px;
 }
