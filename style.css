@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #1D2D44;
+}
+
+header{
+    background-color: #3E5C76;
+    height: 140px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+a{
+    color: #F0EBD8;
+    text-decoration: none;
+    margin: 30px;
+}
+
+#divPrincipal{
+    text-align: center;
+    align-items: center;
+    border-width: 10px;
+    border-color: #F0EBD8;
+}
