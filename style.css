@@ -8,10 +8,6 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-p{
-    color: #F0EBD8;
-}
-
 .photo{
     border-radius: 500px;
     margin: 100px;
@@ -21,9 +17,9 @@ p{
 
 header{
     background-color: #0D1321;
-    height: 60px;
+    height: 35px;
     padding: 20px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     align-content: end;
     position: fixed;
@@ -32,17 +28,17 @@ header{
     right: 0;
 }
 
-a{
+.linkHeader{
     color: #F0EBD8;
     text-decoration: none;
     margin: 30px;
 }
 
-a:hover{
+.linkHeader:hover{
     background-color: #F0EBD8;
     color: #0D1321;
     padding: 10px;
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 8px;
     transition: 0.5s;
 }
@@ -58,7 +54,22 @@ a:hover{
     text-align: center;
     align-items: center;
     height: 700px;
-    background-color: #F0EBD8;
+    background-color: #F4F9E9;
+}
+
+.container{
+    display: flex;
+}
+
+.project{
+    padding: 30px;
+    background-color: #FFFFF3;
+    width: 350px;
+    height: 350px;
+    margin: 50px;
+    border: 4px solid #0D1321;
+    border-radius: 10px;
+    align-items: center;
 }
 
 #divPhoto{
@@ -66,12 +77,16 @@ a:hover{
     border-radius: 8px;
     display: flex;
     text-align: left;
-    margin-top: 30px;
+    align-items: center;
+    margin: 30px;
+    height: 350px;
+    width: 900px;
 }
 
 .aboutMe{
-    font-size: 25px;
+    font-size: 20px;
     margin: 30px 15px 30px 30px;
+    color: #F0EBD8;
 }
 
 #divSkills{
@@ -93,6 +108,31 @@ a:hover{
 
 footer{
     background-color: #748CAB;
-    height: 60px;
+    height: 30px;
     padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.imgProject{
+    width: 200px;
+    height: 200px; 
+    margin: 40px;
+}
+
+.linkProject{
+    text-decoration: none;
+    background-color: grey;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.linkProject:hover{
+    background-color: #1D2D44;
+    padding: 7px;
+    color: #FFFFF3;
+    border-radius: 10px;
+    transition: .5s;
 }
